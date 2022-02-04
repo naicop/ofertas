@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* esto es para el encabezado, y fuente no importa */
+
+body{
+
+  font-family: Poppins;
+
+}
+.hugo{background-image:url(/hugo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.color-blanco{
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-primary {
+  background-color: #006644!important;
+  padding: 15px;
+}
+
+
+.ikiwi-logo {
+    max-height: 45px;
+    justify-content: center;
+}
+
+
+/*Acá empieza lo bueno*/
+
+/*Titulos y colores principales */
+.titulo{
+
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.titulo-alternativo{
+  font-size: large;
+  text-align: center;
+  
+  font-weight: 700;
+  margin-top: 10%;
+}
+@media screen and (min-width: 1025px){
+
+.titulo-alternativo{
+  font-size: large;
+  text-align: center;
+  
+  font-weight: 700;
+  margin-top: 5%;
+}
+}
+
+.titulo-utm{
+
+  font-size: x-large;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.color-verde{
+  color:#006644;
+}
+
+/* Ofertas varias */
+
+/* Oferta única */
+
+
+
+.recuadro-oferta-unica{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 15px;
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  text-align: center;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  }
+
+@media screen and (max-width: 600px){
+
+.recuadro-oferta-unica{
+margin-top: 10%;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 15%;
+padding: 15px;
+border: 1px solid rgba(3,12,18,0.12);
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+text-align: center;
+width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .recuadro-oferta-unica{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 15px;
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  text-align: center;
+  width: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  }
+
+  .imagen-oferta-unica{
+    text-align: center;
+    justify-content: center;
+    width: 60%; 
+    }
+
+  @media screen and (max-width: 1025px){
+.imagen-oferta-unica{
+  text-align: center;
+  justify-content: center;
+  width: 75%; 
+  }
+}
+
+.plazo-oferta-unica{
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+  }
+
+.monto-oferta-unica{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+  }
+
+
+  /* Oferta Fincash */
+
+.recuadro-oferta-fincash{
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding: 15px;
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  text-align: center;
+  }
+  
+  .imagen-oferta-fincash{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px; /* ver de subir imagenes con 200px */
+    }
+  
+  .plazo-oferta-fincash{
+      font-size: large;
+      text-align: center;
+      font-weight: 600;
+    }
+  
+  .monto-oferta-fincash{
+      font-size: xx-large;
+      text-align: center;
+      padding-top: 30px;
+      font-weight: 700;
+    }
+   
+
+     /* Oferta Fincash */
+
+.recuadro-oferta-fincash-segunda{
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding: 15px;
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  text-align: center;
+  }
+  
+ /* .imagen-oferta-fincash-segunda{
+    text-align: left;
+    justify-content: left;
+    max-width: 130px;
+    padding-right: 15px;
+    }
+  */
+  .plazo-oferta-fincash-segunda{
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-align: center;
+      
+    }
+  
+  .monto-oferta-fincash-segunda{
+      font-size: 1.4rem;
+      text-align: right;
+      padding-top: 30px;
+      font-weight: 700;
+    }
+
+
+
+      .boton-oferta-fincash-segunda{
+
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 700;
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: large;
+        background: #006644;
+        padding: 5px 20px 5px 20px;
+        text-decoration: none;
+        border: none;
+      }
+      .boton-oferta-fincash-segunda:hover {
+        background: #2130b7;
+        text-decoration: none;
+      }
+
+
+
+      .boton-oferta-fincash{
+
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 700;
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: large;
+        background: #006644;
+        padding: 12px 20px 12px 20px;
+        text-decoration: none;
+        border: none;
+      }
+      .boton-oferta-fincash:hover {
+        background: #2130b7;
+        text-decoration: none;
+      }
+
+
+
+      .row-imagen-principal{
+justify-content: center;
+padding-top: 5%;
+
+      }
+
+      .row-fincash-principal{
+        justify-content: center;
+        padding-top: 5%;
+        margin: 12%;
+        
+              }
+
+
+      input[type="radio"]{
+        appearance: none;
+        border: 0px solid #d3d3d3;
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        content: none;
+        outline: none;
+        margin: 0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #ffffff;
+     }
+     
+     input[type="radio"]:checked {
+       appearance: none;
+       outline: none;
+       padding: 0;
+       content: none;
+       border: none;
+     }
+     
+     input[type="radio"]:checked::before{
+       position: absolute;
+       color: #006644 !important;
+       content: "\00A0\2713\00A0" !important;
+       border: 0px solid #d3d3d3;
+       font-weight: bolder;
+       font-size: 21px;
+     }
+
+     .cuotas-fincash{
+       font-size: large;
+     }
+
+     .aclaracion-fincash{
+       border-bottom: 2px solid #006644;
+       border-top: 2px solid #006644;
+       padding: 10px;
+       margin:45px 20px 0px 20px;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       font-size: small;
+     }
+      
+/* Ofertas preaprobadas varias */
+
+.oferta-preaprobada{
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.row-oferta-preaprobada{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  padding: 7px;
+  justify-content: center;
+  display: flex;
+ 
+}
+div.row-oferta-alternativa{
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  padding: 7px;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+
+div.row-oferta-preaprobada-active{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+  box-shadow: 2px 2px 8px 2px  #0066447c;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  padding: 7px;
+
+}
+
+div.row-oferta-preaprobada-disable{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 2px rgba(206, 203, 203, 0.966); 
+  box-shadow: 2px 2px 8px 2px  rgba(194, 191, 191, 0.966); 
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(238, 234, 234, 0.966); 
+  padding: 7px;
+
+}
+
+
+.plazo-oferta-preaprobada{
+  font-size: small;
+  text-align: center;
+  font-weight: 600;
+}
+
+.imagen-oferta-preaprobada{
+max-width: 130px;
+height: auto;
+}
+
+  
+/* Ofertas alternativas */
+
+.oferta-alternativa{
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 0px;
+  vertical-align: middle;
+  height: 45px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.imagen-oferta-alternativa{
+max-height: 45px;
+  
+}
+
+
+
+/* Botones */
+
+.boton-oferta-unica{
+
+  text-align: center;
+  font-weight: 700;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  background: #006644;
+  padding: 5px 25px 5px 20px;
+  text-decoration: none;
+  border: none;
+}
+.boton-oferta-unica:hover {
+  background: #2130b7;
+  text-decoration: none;
+}
+
+
+.boton-oferta-preaprobada{
+
+  text-align: center;
+  font-weight: 600;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #006644;
+  padding: 7px 7px 5px 7px;
+  text-decoration: none;
+  border: none;
+}
+.boton-oferta-preaprobada:hover {
+  background: #2130b7;
+  text-decoration: none;
+}
+
+
+.boton-oferta-alternativa{
+
+  text-align: center;
+  font-weight: 600;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #006644;
+  padding: 7px 7px 5px 7px;
+  text-decoration: none;
+  border: none;
+}
+.boton-oferta-alternativa:hover {
+  background: #2130b7;
+  text-decoration: none;
+}
+
+/*Arrow right*/
+
+.arrow-right{
+
+    margin-left: 20px;
+    font-size: xx-large;
+    
+}
+.arrow-right-fincash{
+
+  margin-left: 10px;
+  font-size: large;
+  
+}
+
+
+
+
+.recuadro-oferta-fincash-segunda{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  text-align: center;
+  }
+  
+  /*
+  .imagen-oferta-fincash-segunda{
+    text-align: left;
+    justify-content: left;
+    max-width: 130px;
+    padding-right: 15px;
+    }
+  */
+  .plazo-oferta-fincash-segunda{
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-align: center;
+      
+    }
+  
+  .monto-oferta-fincash-segunda{
+      font-size: 1.5rem;
+      text-align: right;
+      padding-top: 30px;
+      font-weight: 700;
+    }
+
+
+
+      .boton-oferta-fincash-segunda{
+
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 700;
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: large;
+        background: #006644;
+        padding: 5px 20px 5px 20px;
+        text-decoration: none;
+        border: none;
+      }
+      .boton-oferta-fincash-segunda:hover {
+        background: #2130b7;
+        text-decoration: none;
+      }
+
+/*Ocultar en ciertos dispositivos*/
+@media screen and (max-width: 350px){
+
+  .oculto-movil-chico{
+    display: none;
+  }
+  }
+  
+  @media screen and (max-width: 767px){
+  
+    .oculto-movil-chico{
+      display: none;
+    }
+    }
+
+
+
+/*Teléfonos muy chicos*/
+@media screen and (max-width: 321px){
+  .imagen-oferta-preaprobada, .imagen-oferta-alternativa{
+    max-width: 120px;
+    
+    }
+  .plazo-oferta-preaprobada{
+
+    font-size: 0.7rem;
+  }
+
+  .arrow-utm, .arrow-fincash{
+    display:none;
+  }
+  }
+
+  /*Teléfonos chicos*/
+@media screen and (max-width: 375px){
+  .plazo-oferta-fincash-segunda{
+    font-size:0.8rem;
+  }
+  .arrow-right-fincash{
+    display: none;
+  }
+  
+  }
+
+  /* Tablets chicas */
+
+  @media screen and (min-width: 767px){
+    .oculto-dispositivos-grandes{
+      display:none;
+      
+      }
+    }
+
+
+
+/* Para tablets y netbook */
+@media screen and (min-width: 768px){
+
+  div.row-oferta-preaprobada{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  div.row-oferta-alternativa{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  .recuadro-oferta-fincash{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  .recuadro-oferta-fincash-segunda{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  .imagen-oferta-preaprobada{
+    max-width: 160px;
+  }
+
+  .titulo-alternativo{
+    margin-top: 7%;
+  }
+
+  .imagen-oferta-fincash-segunda{
+    max-width: 220px;
+  }
+
+
+
+}
+/*Desktop normal y grandes*/
+@media screen and (min-width: 1024px){
+
+  div.row-oferta-preaprobada{
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  div.row-oferta-alternativa{
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .recuadro-oferta-fincash{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+  .recuadro-oferta-fincash-segunda{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+  }
+  .imagen-oferta-preaprobada{
+    max-width: 160px;
+  }
+
+  .titulo-alternativo{
+    margin-top: 7%;
+  }
+
+.titulo,.monto-oferta-fincash{
+  font-size: 2.6rem;
+}
+.plazo-oferta-fincash {
+  font-size: x-large;
+}
+
+
+}
