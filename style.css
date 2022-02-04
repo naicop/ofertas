@@ -44,7 +44,7 @@ background-size: cover;
 /*Titulos y colores principales */
 .titulo{
 
-  font-size: xx-large;
+  font-size: 1.8rem;
   text-align: center;
   padding-top: 30px;
   font-weight: 700;
@@ -586,6 +586,16 @@ max-height: 45px;
   .oculto-movil-chico{
     display: none;
   }
+  .boton-oferta-unica{
+    padding: 7px;
+    font-size: x-large;
+    
+  }
+  .arrow-right{
+   
+    font-size: x-large;
+    
+  }
   }
   
   @media screen and (max-width: 767px){
@@ -669,7 +679,9 @@ max-height: 45px;
   .imagen-oferta-fincash-segunda{
     max-width: 220px;
   }
-
+  .titulo{
+    font-size: 2rem;
+  }
 
 
 }
@@ -693,7 +705,7 @@ max-height: 45px;
     margin-bottom: 5%;
   }
   .recuadro-oferta-fincash-segunda{
-    margin-top: 3%;
+    margin-top: 1.5%;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2%;
@@ -706,9 +718,13 @@ max-height: 45px;
     margin-top: 7%;
   }
 
-.titulo,.monto-oferta-fincash{
+.titulo{
+  font-size: 2rem;
+}
+.monto-oferta-fincash{
   font-size: 2.6rem;
 }
+
 .plazo-oferta-fincash {
   font-size: x-large;
 }
