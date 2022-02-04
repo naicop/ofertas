@@ -298,7 +298,7 @@ padding-top: 5%;
       .row-fincash-principal{
         justify-content: center;
         padding-top: 5%;
-        margin: 12%;
+        margin: 5%;
         
               }
 
@@ -314,6 +314,7 @@ padding-top: 5%;
         margin: 0;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         background-color: #ffffff;
+        float: left;
      }
      
      input[type="radio"]:checked {
@@ -322,6 +323,9 @@ padding-top: 5%;
        padding: 0;
        content: none;
        border: none;
+       
+
+       
      }
      
      input[type="radio"]:checked::before{
@@ -628,6 +632,38 @@ max-height: 45px;
   .arrow-utm, .arrow-fincash{
     display:none;
   }
+
+
+
+  div.row-oferta-preaprobada-active{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+    box-shadow: 2px 2px 8px 2px  #0066447c;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+  
+  }
+  
+  div.row-oferta-preaprobada-disable{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(206, 203, 203, 0.966); 
+    box-shadow: 2px 2px 8px 2px  rgba(194, 191, 191, 0.966); 
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgba(238, 234, 234, 0.966); 
+    padding: 5px;
+  
+  }
+  .cuotas-fincash{
+font-size: medium;
+  }
+  
+
   }
 
   /*Teléfonos chicos*/
@@ -690,6 +726,41 @@ max-height: 45px;
     font-size: 2rem;
   }
 
+  div.row-oferta-preaprobada-active{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+    box-shadow: 2px 2px 8px 2px  #0066447c;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+  
+  }
+  
+  div.row-oferta-preaprobada-disable{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(206, 203, 203, 0.966); 
+    box-shadow: 2px 2px 8px 2px  rgba(194, 191, 191, 0.966); 
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(238, 234, 234, 0.966); 
+    padding: 5px;
+  
+  }
+
+  .aclaracion-fincash{
+margin-top: 5%;
+margin-right: 12% ;
+margin-left: 12% ;
+  }
+  .row-fincash-principal{
+    margin-top: 5%;
+    margin-right: 20% ;
+margin-left: 20% ;
+  }
 
 }
 /*Desktop normal y grandes*/
@@ -736,5 +807,84 @@ max-height: 45px;
   font-size: x-large;
 }
 
+div.row-oferta-preaprobada-active{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+  box-shadow: 2px 2px 8px 2px  #0066447c;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5px;
+
+}
+
+div.row-oferta-preaprobada-disable{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 2px rgba(206, 203, 203, 0.966); 
+  box-shadow: 2px 2px 8px 2px  rgba(194, 191, 191, 0.966); 
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgba(238, 234, 234, 0.966); 
+  padding: 5px;
+
+}
+
+.aclaracion-fincash{
+margin-top: 2%;
+margin-right: 22% ;
+margin-left: 22% ;
+
+}
+.row-fincash-principal{
+  margin-top: 1%;
+  margin-right: 30% ;
+margin-left: 30% ;
+padding-top: 25px;
+}
+
+}
+
+@media screen and (min-width: 1044px){
+
+  div.row-oferta-preaprobada-active{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+    box-shadow: 2px 2px 8px 2px  #0066447c;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+  
+  }
+  
+  div.row-oferta-preaprobada-disable{
+    border: 1px solid rgba(3,12,18,0.12);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(206, 203, 203, 0.966); 
+    box-shadow: 2px 2px 8px 2px  rgba(194, 191, 191, 0.966); 
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgba(238, 234, 234, 0.966); 
+    padding: 5px;
+  
+  }
+  
+  .aclaracion-fincash{
+  margin-top: 2%;
+  margin-right: 30% ;
+  margin-left: 30% ;
+  
+  }
+  .row-fincash-principal{
+    margin-top: 1%;
+    margin-right: 35% ;
+  margin-left: 35% ;
+  padding-top: 25px;
+  }
 
 }
