@@ -459,6 +459,10 @@ max-height: 45px;
   padding: 5px 25px 5px 20px;
   text-decoration: none;
   border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 6px #666666;
+  -moz-box-shadow: 2px 2px 6px #666666;
+  box-shadow: 2px 2px 6px #666666;
 }
 .boton-oferta-unica:hover {
   background: #2130b7;
@@ -479,6 +483,9 @@ max-height: 45px;
   padding: 7px 7px 5px 7px;
   text-decoration: none;
   border: none;
+  -webkit-box-shadow: 2px 2px 6px #666666;
+  -moz-box-shadow: 2px 2px 6px #666666;
+  box-shadow: 2px 2px 6px #666666;
 }
 .boton-oferta-preaprobada:hover {
   background: #2130b7;
