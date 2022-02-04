@@ -76,6 +76,15 @@ background-size: cover;
   font-weight: 700;
   padding-bottom: 30px;
 }
+
+.titulo-utm-fincash{
+
+  font-size: x-large;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
 .color-verde{
   color:#006644;
 }
@@ -885,6 +894,14 @@ padding-top: 25px;
     margin-right: 35% ;
   margin-left: 35% ;
   padding-top: 25px;
+  }
+  .titulo-utm-fincash{
+
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
   }
 
 }
